@@ -1,0 +1,39 @@
+// Warm orange palette
+$primary-color: #ff8c42; // Vibrant orange
+$accent-color: #ffb347;  // Soft orange accent
+$secondary-color: #c26b2b;
+
+// Backgrounds
+$background-color: #fff4e5;
+$sidebar-bg: #fff9f2;
+$chat-bg: #fff7ec;
+
+// Messages
+$user-msg-bg: $primary-color;
+$user-msg-text: #ffffff;
+$bot-msg-bg: #fffdf8;
+$bot-msg-text: #2f281e;
+
+// Typography
+$text-color: #333;
+$light-text: #fff;
+$font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+// UI Elements
+$border-radius: 16px;
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+}

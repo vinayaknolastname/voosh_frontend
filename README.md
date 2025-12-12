@@ -22,4 +22,4 @@ A React + SCSS frontend for the RAG-powered news chatbot.
    The app will be available at `http://localhost:5173`.
 
 ## Configuration
-The API URL is set to `http://localhost:3000/api` in `src/components/Chat.jsx`. Update it if your backend runs on a different port.
+The API URL is set to `http://localhost:3000/api` in `src/components/Chat.tsx`. Update it if your backend runs on a different port.
